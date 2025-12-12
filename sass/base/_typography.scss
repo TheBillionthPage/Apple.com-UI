@@ -1,0 +1,32 @@
+body {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: $default-font;
+}
+
+.hero-heading {
+  font-size: 5.6rem;
+  line-height: 1.07;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.heading-32px {
+  font-size: 3.2rem;
+  line-height: 1.07;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.body-text--24px {
+  font-size: 2.4rem;
+  line-height: 1.14;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.body-text--20px {
+  font-size: 2rem;
+  line-height: 1.14;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}

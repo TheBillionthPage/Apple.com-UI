@@ -1,0 +1,27 @@
+// FONTS
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("☺"),
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2")
+      format("woff2"),
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff")
+      format("woff"),
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.ttf")
+      format("truetype");
+}
+
+// COLORS
+$color-blue: hsl(210, 100%, 45%);
+$color-black: hsl(0, 0%, 0%);
+$color-white: hsl(0, 0%, 100%);
+$color-grey: hsl(0, 0%, 47%);
+$color-grey-light: hsl(0, 17%, 98%);
+
+// FONTS
+$default-font: 1.6rem;
+
+$gradient: radial-gradient(
+  100% 33% at left bottom,
+  rgba(0, 0, 0, 0.5) 0%,
+  rgba(255, 255, 255, 0)
+);

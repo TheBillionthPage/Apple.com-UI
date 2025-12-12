@@ -1,0 +1,69 @@
+.promo {
+  margin-top: 1.5rem;
+
+  &__content {
+    width: 97vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  &-item {
+    height: 49rem;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    & > .copy {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.apple-watch {
+  background-image: url(../../img/Apple\ Watch.jpg);
+}
+
+.ipad {
+  background-image: url(../../img/ipad.jpg);
+}
+
+.macbook-air {
+  background-image: url(../../img/MacBook\ Air.jpg);
+}
+
+.ipad-air {
+  background-image: url(../../img/iPad\ Air.jpg);
+}
+
+.apple-trade-in {
+  background-image: url(../../img/iPhone\ TradeIn.jpg);
+}
+
+.apple-card {
+  background-image: url(../../img/Apple\ Card.jpg);
+}
+
+.ipad_air_logo {
+  width: 20rem;
+}
+
+.apple_watch_logo {
+  width: 30rem;
+}
+
+.trade_in_logo {
+  width: 20rem;
+}
+
+.apple_card_logo {
+  width: 15rem;
+}

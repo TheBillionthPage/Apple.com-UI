@@ -1,0 +1,50 @@
+.btn {
+  &--blue {
+    &:link,
+    &:visited {
+      padding: 1.1rem 2.1rem;
+      border-radius: 80rem;
+      color: $color-white;
+      background-color: $color-blue;
+    }
+  }
+
+  &--transparent {
+    &:link,
+    &:visited {
+      background-color: transparent;
+      padding: 1.1rem 2.1rem;
+      border-radius: 80rem;
+      text-decoration: none;
+      border: 1px solid $color-blue;
+      color: $color-blue;
+    }
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-blue;
+      border: 1px solid transparent;
+    }
+  }
+
+  &--white {
+    &:link,
+    &:visited {
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      border-radius: 1.8rem;
+      line-height: 1.4;
+      font-weight: 400;
+      min-width: 3rem;
+      padding: 0.7rem 1.5rem;
+      color: $color-black;
+      background-color: rgb(244, 244, 244);
+    }
+
+    &:hover,
+    &:active {
+      background-color: $color-white;
+    }
+  }
+}

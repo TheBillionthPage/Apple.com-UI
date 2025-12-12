@@ -1,0 +1,101 @@
+.footer {
+  padding-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.56);
+  background-color: $color-grey-light;
+
+  & a:hover,
+  & a:active {
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.56);
+  }
+
+  &__content {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+  }
+
+  &__heading {
+    display: none;
+  }
+
+  &__section--1 {
+    padding: 1.7rem 0 1.1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+
+    & li {
+      font-size: 1.3rem;
+      padding-bottom: 0.8rem;
+    }
+  }
+
+  &__section--2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  &__nav {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    display: flex;
+
+    & a:link,
+    & a:visited {
+      color: rgba(0, 0, 0, 0.56);
+    }
+  }
+
+  &__section--3 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+
+    & > div {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    & ul {
+      display: flex;
+      justify-content: space-around;
+      gap: 2.5rem;
+    }
+
+    & li {
+      position: relative;
+    }
+
+    & li:not(:last-child):after {
+      content: "|";
+      position: absolute;
+      right: -1.2rem;
+    }
+
+    & a:link,
+    & a:visited {
+      color: rgba(0, 0, 0, 0.56);
+    }
+  }
+}
+
+.extra-info {
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+  & a:link,
+  & a:visited {
+    color: $color-blue;
+    border-bottom: 1px solid;
+  }
+}
+
+.column {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  & h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #000000b1;
+  }
+}
