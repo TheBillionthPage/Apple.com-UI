@@ -224,7 +224,7 @@ body {
   align-content: flex-end;
 }
 .hero__iphone {
-  background-image: url("../../img/iphone_family.jpg");
+  background-image: url("../img/iphone_family.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -239,7 +239,7 @@ body {
   align-items: center;
 }
 .hero__airpods {
-  background-image: url("../../img/AirPods Pro 3.jpg");
+  background-image: url("../img/AirPods Pro 3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -290,27 +290,27 @@ video {
 }
 
 .apple-watch {
-  background-image: url(../../img/Apple\ Watch.jpg);
+  background-image: url(../img/Apple\ Watch.jpg);
 }
 
 .ipad {
-  background-image: url(../../img/ipad.jpg);
+  background-image: url(../img/ipad.jpg);
 }
 
 .macbook-air {
-  background-image: url(../../img/MacBook\ Air.jpg);
+  background-image: url(../img/MacBook\ Air.jpg);
 }
 
 .ipad-air {
-  background-image: url(../../img/iPad\ Air.jpg);
+  background-image: url(../img/iPad\ Air.jpg);
 }
 
 .apple-trade-in {
-  background-image: url(../../img/iPhone\ TradeIn.jpg);
+  background-image: url(../img/iPhone\ TradeIn.jpg);
 }
 
 .apple-card {
-  background-image: url(../../img/Apple\ Card.jpg);
+  background-image: url(../img/Apple\ Card.jpg);
 }
 
 .ipad_air_logo {
@@ -369,39 +369,39 @@ video {
 }
 
 .slide--1 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Family\ Plan.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Family\ Plan.jpg);
 }
 
 .slide--2 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Plauribus.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Plauribus.jpg);
 }
 
 .slide--3 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Spirited.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Spirited.jpg);
 }
 
 .slide--4 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url("../../img/Charlie Brown.jpg");
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url("../img/Charlie Brown.jpg");
 }
 
 .slide--5 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url("../../img/The Morning Show.jpg");
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url("../img/The Morning Show.jpg");
 }
 
 .slide--6 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Down\ Cemetry\ Road.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Down\ Cemetry\ Road.jpg);
 }
 
 .slide--7 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Slow\ Horses.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Slow\ Horses.jpg);
 }
 
 .slide--8 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Last\ Frontier.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Last\ Frontier.jpg);
 }
 
 .slide--9 {
-  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../../img/Loot.jpg);
+  background-image: radial-gradient(100% 33% at left bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0)), url(../img/Loot.jpg);
 }
 
 .media {
