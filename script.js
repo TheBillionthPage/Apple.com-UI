@@ -49,33 +49,37 @@ if (!forDesktop) {
 
   // Create Mobile navigation
   const navBar = document.createElement("div");
-  Array.from(dropdown).forEach((item) => {
-    navBar.appendChild(item);
+  Array.from(dropdown).forEach((element) => {
+    const clone = element.cloneNode(true);
+    navBar.appendChild(clone);
   });
-
   navBar.className = "navbar-content_container";
   nav.insertAdjacentElement("afterend", navBar);
-  const navbarContainer = document.querySelector(".navbar-content_container");
 
-  // Create the close icon for mobile navigation
+  // Close icon for mobile navigation
+  const navbarContainer = document.querySelector(".navbar-content_container");
   const closeIcon = document.createElement("ion-icon");
+
   closeIcon.setAttribute("name", "close-outline");
   closeIcon.className = "close-icon";
   navbarContainer.insertAdjacentElement("afterbegin", closeIcon);
-  const menuClose = document.querySelector(".close-icon");
+  const menuClose = document.querySelectorAll(".close-icon");
 
   // When the Hamburger menu is clicked
   menuOpen.addEventListener("click", (e) => {
     e.preventDefault();
+    console.log(navbarContainer);
     navbarContainer.classList.toggle("show-navbar");
     document.body.style.overflow = "hidden";
   });
 
   // When the close icon is clicked
-  menuClose.addEventListener("click", (e) => {
-    e.preventDefault();
-    navbarContainer.classList.toggle("show-navbar");
-    document.body.style.overflow = "visible";
+  [...menuClose].forEach((item) => {
+    item.addEventListener("click", (e) => {
+      e.preventDefault();
+      navbarContainer.classList.toggle("show-navbar");
+      document.body.style.overflow = "visible";
+    });
   });
 
   // When each of the links of the mobile navigation is clicked

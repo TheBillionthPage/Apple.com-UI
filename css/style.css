@@ -158,9 +158,17 @@ button {
   color: hsl(0, 0%, 0%);
 }
 
+.navbar-content_container {
+  display: none;
+}
+
 .nav-icons {
   font-size: 1.7rem;
   color: hsl(0, 0%, 0%);
+}
+
+.dropdown {
+  display: inline-block;
 }
 
 .dropdown-content {

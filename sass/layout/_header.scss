@@ -24,9 +24,17 @@
   }
 }
 
+.navbar-content_container {
+  display: none;
+}
+
 .nav-icons {
   font-size: 1.7rem;
   color: $color-black;
+}
+
+.dropdown {
+  display: inline-block;
 }
 
 .dropdown-content {
